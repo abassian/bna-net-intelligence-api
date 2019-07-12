@@ -3,3 +3,5 @@ services:
   bna-netstats-api:
     build: .
     restart: always
+    volumes:
+      - ${PWD}/app.json:/home/ethnetintel/app.json
